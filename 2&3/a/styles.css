@@ -1,0 +1,41 @@
+body {
+  font-family: monospace;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+fieldset {
+  border: 1px solid #141414;
+  padding: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  border: 1px solid #141414;
+  padding: 4px;
+}
+
+.inline-lbl {
+  display: inline;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background: #141414;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}

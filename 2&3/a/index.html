@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend><b>STUDENT FEEDBACK</b></legend>
+      <label>Full Name <input type="text" name="name"></label>
+      <label>Comments <textarea name="comments" rows="3"></textarea></label>
+      <label>Course
+        <select name="course">
+          <option value="cs">Computer Science</option>
+          <option value="is">Information Science</option>
+        </select>
+      </label>
+      <label>Year <br>
+        <span class="inline-lbl"><input type="radio" name="yr" value="1"> 1st Yr</span>
+        <span class="inline-lbl"><input type="radio" name="yr" value="2"> 2nd Yr</span>
+      </label>
+      <label class="inline-lbl"><input type="checkbox" name="sub" value="yes"> Subscribe to updates</label><br><br>
+      <input type="submit" value="Submit Feedback">
+    </fieldset>
+  </form>
+</body>
+</html>

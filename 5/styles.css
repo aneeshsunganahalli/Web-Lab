@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial;
+}
+
+.font-style-1 {
+    font-family: Verdana;
+}
+
+.font-style-2 {
+    font-family: 'Times New Roman';
+}
+
+.background {
+    background-image: url('bg.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: repeat;
+}
+
+a:link {
+    color: #6B7F96;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9E7273;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C07C66;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #768772;
+    text-decoration: underline;
+}
